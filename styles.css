@@ -1,0 +1,72 @@
+html{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+.app{
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header, .main, .footer{
+	margin: 20px 0;
+	padding: 15px;
+	box-shadow: 0 0 5px 0 #ddd;
+}
+
+.select{
+	width: 100%;
+	padding: 10px;
+}
+
+.input{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.input:first-of-type{
+	margin-top: 0;
+}
+
+.templateSave__inputs:empty{
+	margin-bottom: -20px;
+}
+
+.templateSave__btn{
+	width: 120px;
+	padding: 10px;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	font-size: 14px;
+	font-family: sans-serif;
+	transition: .2s;
+}
+
+.templateSave__btn:hover, .templateSave__btn:focus{
+	outline: none;
+	background-color: #000;
+	color: #fff;
+}
+
+.templateSave__btn--submit{
+	margin-top: 20px;
+}
+
+.templateSave__btn--download{
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.footer--hidden{
+	display: none;
+}
